@@ -54,6 +54,10 @@ const App = () => {
     : newCountry
     );
     setCountries(updatedCountry);
+    setCountry("");
+    setGold(0);
+    setSilver(0);
+    setBronze(0);
   };
  
   return (
