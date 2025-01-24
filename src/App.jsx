@@ -48,9 +48,11 @@ const App = () => {
   //*--- 국가 업데이트 핸들러 ---*//
   const updateCountryHandler = (e) => {
     e.preventDefault();
-    const updatedCountry = countries.map((newCountry) => {
-      newCountry.country === country ? { country, gold, silver, bronze } : newCountry
-    });
+    const updatedCountry = countries.map((newCountry) => 
+      newCountry.country === country
+    ? { ...newCountry, country, gold, silver, bronze }
+    : newCountry
+    );
     setCountries(updatedCountry);
   };
  
