@@ -25,6 +25,8 @@ CRUD 기능으로 국가와 메달 정보를 추가, 수정, 삭제할 수 있�
 ## 기술 블로그
 [리액트 왕초보가 Medal Tracker 만든 후기](https://debnjin.tistory.com/82)
 
+<br>
+
 ## 💻 기술 스택
 <img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/JavaScript.png?raw=true" width="80">
 <img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/React.png?raw=true" width="80">
