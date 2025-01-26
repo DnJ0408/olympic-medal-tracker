@@ -37,6 +37,17 @@ body {
 
 .button {
   width: 60px;
+  background-color: yellow;
+  border: none;
+  border-radius: 8px;
+   cursor: pointer; /* 마우스 커서 모양 변경 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 버튼에 박스 섀도우 추가 */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* 부드러운 애니메이션 */
+}
+
+.button:hover {
+  background-color: gold; /* 호버 시 색상 변경 */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* 호버 시 섀도우 더 깊게 */
 }
 
 .list {
