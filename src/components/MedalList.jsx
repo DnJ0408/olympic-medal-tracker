@@ -4,11 +4,11 @@ const MedalList = ({countries, onDeletedCountry}) => {
       <ul className="list-container">
         {countries.length > 0 ? (
           <li className="list">
-          <p>국가명</p>
-          <p>금메달</p>
-          <p>은메달</p>
-          <p>동메달</p>
-          <p className="delete-title">삭제</p>
+          <p>Country Name</p>
+          <p>Gold</p>
+          <p>Silver</p>
+          <p>Bronze</p>
+          <p className="delete-title">Action</p>
         </li>
         ) : null}
         {countries.map((country) => (
